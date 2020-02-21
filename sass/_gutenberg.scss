@@ -1,0 +1,13 @@
+.animbloc2 {
+    animation : animbloc2 2s infinite alternate;
+    background-color: rgb(30, 146, 140);
+}
+
+@keyframes animbloc2 {
+    from{
+        transform: translateX(-20px);
+    }
+    to{
+        transform: translateX(20px);
+    }
+}
