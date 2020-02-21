@@ -20,6 +20,10 @@ body {
   display: none;
 }
 
+footer {
+  border: 2px solid black;
+}
+
 .animbloc2 {
   -webkit-animation: animbloc2 2s infinite alternate;
           animation: animbloc2 2s infinite alternate;
