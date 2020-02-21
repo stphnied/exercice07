@@ -20,8 +20,10 @@ body {
   display: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+footer {
+  border: 2px solid black;
+}
+
 .rayure {
   background-image: repeating-linear-gradient(-45deg, #ddd, grey 20px, #eee 20px);
 }
@@ -65,14 +67,6 @@ body {
   to {
     background-color: #fdf289;
   }
-=======
-footer {
-  border: 2px solid black;
->>>>>>> 1407737546a515d5b9f541489f3f110d861f2773
-=======
-footer {
-  border: 2px solid black;
->>>>>>> 1407737546a515d5b9f541489f3f110d861f2773
 }
 
 .animbloc2 {
