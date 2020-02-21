@@ -1,0 +1,30 @@
+.rayure {
+    @include rayure-grise;
+    animation: animRayure 2s forwards infinite alternate;
+}
+
+@keyframes animRayure {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animbloc1 {
+    animation: animBloc1 1s infinite alternate;
+}
+
+@keyframes animBloc1 {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: silver;
+    }
+}
+
+.animbloc2 {}

@@ -19,4 +19,51 @@ body {
 .entry .entry-title::before {
   display: none;
 }
+
+.rayure {
+  background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px);
+  -webkit-animation: animRayure 2s forwards infinite alternate;
+          animation: animRayure 2s forwards infinite alternate;
+}
+
+@-webkit-keyframes animRayure {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animRayure {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animbloc1 {
+  -webkit-animation: animBloc1 1s infinite alternate;
+          animation: animBloc1 1s infinite alternate;
+}
+
+@-webkit-keyframes animBloc1 {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: silver;
+  }
+}
+
+@keyframes animBloc1 {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: silver;
+  }
+}
 /*# sourceMappingURL=style.css.map */
