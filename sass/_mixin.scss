@@ -1,4 +1,5 @@
-@mixin rayure-grise() {
-    background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px);
-    
+@mixin rayure-grise($deg, $couleur1, $couleur2, $couleur3) {
+    // background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px);
+    background-image: repeating-linear-gradient($deg, $couleur1, $couleur2, $couleur3);
+
 }

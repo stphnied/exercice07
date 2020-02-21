@@ -1,6 +1,6 @@
 .rayure {
-    @include rayure-grise;
-    animation: animRayure 2s forwards infinite alternate;
+    @include rayure-grise(-45deg, #ddd, grey 20px, #eee 20px);
+    // animation: animRayure 2s forwards infinite alternate;
 }
 
 @keyframes animRayure {
@@ -23,8 +23,21 @@
     }
 
     to {
-        background-color: silver;
+        background-color: #fdf289;
     }
 }
 
-.animbloc2 {}
+.animbloc2 {
+    animation: animbloc2 2s infinite alternate;
+    background-color: #46edc8;
+}
+
+@keyframes animbloc2 {
+    from {
+        transform: translateX(-20px);
+    }
+
+    to {
+        transform: translateX(20px);
+    }
+}

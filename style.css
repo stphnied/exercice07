@@ -21,9 +21,7 @@ body {
 }
 
 .rayure {
-  background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px);
-  -webkit-animation: animRayure 2s forwards infinite alternate;
-          animation: animRayure 2s forwards infinite alternate;
+  background-image: repeating-linear-gradient(-45deg, #ddd, grey 20px, #eee 20px);
 }
 
 @-webkit-keyframes animRayure {
@@ -54,7 +52,7 @@ body {
     background-color: white;
   }
   to {
-    background-color: silver;
+    background-color: #fdf289;
   }
 }
 
@@ -63,7 +61,35 @@ body {
     background-color: white;
   }
   to {
-    background-color: silver;
+    background-color: #fdf289;
+  }
+}
+
+.animbloc2 {
+  -webkit-animation: animbloc2 2s infinite alternate;
+          animation: animbloc2 2s infinite alternate;
+  background-color: #46edc8;
+}
+
+@-webkit-keyframes animbloc2 {
+  from {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+  }
+  to {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+}
+
+@keyframes animbloc2 {
+  from {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+  }
+  to {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
   }
 }
 /*# sourceMappingURL=style.css.map */
